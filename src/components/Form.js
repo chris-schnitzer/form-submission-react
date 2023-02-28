@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 export default function  Form() {
-	
+	console.log("hello");
 	const [heightFeet, setHeightFeet] = useState('');
 	const [heightInches, setHeightInches] = useState('');
 	const [weight, setWeight] = useState('');
