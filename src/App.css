@@ -33,6 +33,31 @@ button {
   cursor: pointer;
 }
 
+.error {
+  font-size: 15px;
+  color: rgb(255,45,15);
+}
+
+.msg-success {
+  position: fixed;
+  width: 90%;
+  height: 90%;
+  margin: 5%;
+  color: rgb(100,195,255);
+  background-color: #fff;
+  top: 0;
+  display: flex;
+}
+
+.msg-success h2 {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+}
+
 
 
 
